@@ -1,0 +1,3 @@
+collections:
+  - name: dipuyadav.configure_httpd_with_haproxy_role   
+    version: 1.0.0

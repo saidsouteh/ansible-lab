@@ -1,0 +1,9 @@
+- name: Install httpd
+  hosts: "{{ hosts }}"
+  gather_facts: no
+  become: yes
+  become_user: root
+  tasks:
+   - name: include role myapache
+     include_role:
+        name: dipuyadav.configure_httpd_with_haproxy_role.myapache
